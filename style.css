@@ -468,14 +468,16 @@ img {
     margin-top: 88px;
   }
 
-.sm-yandex-form {
-  height: 1500px;
-  margin: -40px auto 0;
-}
+@media (max-width: 500px) {
+  .sm-yandex-form {
+    height: 1150px;
+    margin: -40px auto 0;
+  }
 
-.sm-yandex-form iframe {
-  min-height: 1500px;
-  transform: translateY(0);
+  .sm-yandex-form iframe {
+    min-height: 1150px;
+    transform: translateY(0);
+  }
 }
 
   .sm-fixed-confirm {
