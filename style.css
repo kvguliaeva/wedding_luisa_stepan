@@ -312,7 +312,7 @@ img {
   width: 100%;
   min-height: 1180px;
   border: 0;
-  transform: translateY(-50px);
+  transform: translateY(-80px);
 }
 
 .sm-helper-button {
