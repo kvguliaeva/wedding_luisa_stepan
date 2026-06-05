@@ -518,12 +518,12 @@ img {
   }
 
   .sm-yandex-form {
-    height: 1680px;
+    height: 1340px;
     margin: 0 auto;
   }
 
   .sm-yandex-form iframe {
-    min-height: 1800px;
+    min-height: 1500px;
     transform: translateY(-20px);
   }
 }
