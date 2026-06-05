@@ -477,4 +477,19 @@ img {
     min-height: 56px;
     font-size: 22px;
   }
+  .sm-questionnaire {
+  padding-top: 0 !important;
+}
+
+.sm-questionnaire .sm-title {
+  margin-bottom: 0 !important;
+}
+
+.sm-questionnaire .sm-text {
+  margin-bottom: 10px !important;
+}
+
+.sm-yandex-form {
+  margin-top: -40px;
+}
 }
