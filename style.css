@@ -301,18 +301,13 @@ img {
 }
 
 .sm-yandex-form {
-  width: min(650px, 100%);
   height: 1300px;
-  margin: 18px auto 0;
-  overflow: hidden;
+  margin: -50px auto 0;
 }
 
 .sm-yandex-form iframe {
-  display: block;
-  width: 100%;
-  min-height: 1180px;
-  border: 0;
-  transform: translateY(-80px);
+  min-height: 1220px;
+  transform: translateY(-30px);
 }
 
 .sm-helper-button {
