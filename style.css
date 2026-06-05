@@ -289,6 +289,25 @@ img {
   line-height: 1.25;
 }
 
+.sm-questionnaire .sm-box {
+  background: transparent;
+  color: var(--clr-base);
+  text-align: center;
+}
+
+.sm-questionnaire .sm-questionnaire-image {
+  display: none !important;
+}
+
+.sm-questionnaire .sm-title {
+  margin-bottom: 14px;
+}
+
+.sm-questionnaire .sm-questionnaire__date {
+  font-family: var(--title-font-family) !important;
+  margin-bottom: 10px;
+}
+
 .sm-dresscode .sm-text {
   max-width: 560px;
   margin-left: auto;
@@ -302,17 +321,17 @@ img {
 
 .sm-yandex-form {
   width: min(650px, 100%);
-  height: 1400px;
-  margin: -80px auto 0;
+  height: 1120px;
+  margin: 8px auto 0;
   overflow: hidden;
 }
 
 .sm-yandex-form iframe {
   display: block;
   width: 100%;
-  min-height: 1500px;
+  min-height: 1320px;
   border: 0;
-  transform: translateY(0);
+  transform: translateY(-110px);
 }
 
 .sm-helper-button {
@@ -468,35 +487,43 @@ img {
     margin-top: 88px;
   }
 
-@media (max-width: 500px) {
-  .sm-yandex-form {
-    height: 1150px;
-    margin: -40px auto 0;
-  }
-
-  .sm-yandex-form iframe {
-    min-height: 1150px;
-    transform: translateY(0);
-  }
-}
-
   .sm-fixed-confirm {
     min-height: 56px;
     font-size: 22px;
   }
+
   .sm-questionnaire {
-  padding-top: 0 !important;
-}
+    padding-top: 0 !important;
+  }
 
-.sm-questionnaire .sm-title {
-  margin-bottom: 0 !important;
-}
+  .sm-questionnaire .sm-container {
+    padding-top: 36px !important;
+    padding-bottom: 54px !important;
+  }
 
-.sm-questionnaire .sm-text {
-  margin-bottom: 10px !important;
-}
+  .sm-questionnaire .sm-box {
+    padding: 0 20px !important;
+  }
 
-.sm-yandex-form {
-  margin-top: -40px;
-}
+  .sm-questionnaire .sm-title {
+    margin-bottom: 10px !important;
+  }
+
+  .sm-questionnaire .sm-text {
+    margin-bottom: 8px !important;
+  }
+
+  .sm-questionnaire .sm-questionnaire__date {
+    margin-bottom: 8px !important;
+  }
+
+  .sm-yandex-form {
+    height: 1040px;
+    margin: 0 auto;
+  }
+
+  .sm-yandex-form iframe {
+    min-height: 1160px;
+    transform: translateY(-20px);
+  }
 }
